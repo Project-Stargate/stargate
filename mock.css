@@ -1,0 +1,77 @@
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #111;
+}
+
+#hero-img {
+  background-image: url('https://camo.githubusercontent.com/6528f9810e6d5b2e49a4463b363dc0120127d87b/687474703a2f2f692e696d6775722e636f6d2f38766d553757342e6a7067');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-text {
+  text-align: center;
+  color: white;
+}
+
+#right-side-bar {
+  border: solid red 3px;
+  float: right;
+  width: 20%;
+  
+  text-align: center;
+  min-height: 1000px
+}
+
+#side-bar-left {
+  border: solid green 3px;
+  float: left;
+  color: white;
+  min-height: 1000px;
+  min-width: 10%;
+  text-align: center;
+}
+
+.gulmira {
+  background-color: blue;
+  color: red;
+}
+
+body {
+  background-image: url('http://en.es-static.us/upl/2012/08/Andromeda_galaxy_Ted_Van_August_2012.jpeg')
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+li {
+  color: white;
+}
